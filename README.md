@@ -15,4 +15,4 @@ This portfolio was created using create-react-app. Using create-react-app I was 
 ![React Portfolio](public/imgs/React-App.png)
 
 ## Deployment 
-[-> Link to live app <-]()
+[-> Link to live app <-](https://slwooten.github.io/react-portfolio/#aboutme)
