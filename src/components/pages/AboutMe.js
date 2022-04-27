@@ -2,20 +2,16 @@ import React from 'react';
 
 export default function AboutMe() {
   return (
-    <div>
-      <h1>About Me</h1>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div class='d-flex justify-content-center'>
+      <div class='m-3 card w-50'>
+        <div class='card-body'>
+        <img src="imgs/headshot.jpg" class="card-img-top w-25 rounded mx-auto d-block m-3" alt="Seth Wooten" />
+          <h1 class='text-center'>About Me</h1>
+          <p>
+            Hello! My name is Seth Wooten. First, I'd like to say thank you for taking the time to check out my portfolio. This is where you'll find some information about me, the projects I've worked on, links to those projects, and much more. Now for a little bit about me. I was born in Statesville, NC and grew up about 25 minutes north of Statesville in a town called Hamptonville. I spent my entire childhood living there with my mom, dad, and older brother. I graduated from North Iredell High School in the year of 2017 and attended Mitchell Community College where I obtained an Associate's Degree. I then transfered to the University of North Carolina at Charlotte where I graduated in the winter of 2021 with a Bachelor's Degree in Marketing.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
